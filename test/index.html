@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Test</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <script>
+      var eq = function (a, b) {
+        if (a !== b) {
+          throw new Error(a + 'not equal' + b);
+        }
+
+        console.log('pass');
+      }
+
+      var obj = {};
+
+      function foo() {
+        eq(this, obj);
+      }
+
+      var objFoo = foo.bind(obj);
+
+      objFoo();
+    </script>
+  </body>
+</html>

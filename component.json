@@ -1,0 +1,12 @@
+{
+  "name": "Function.prototype.bind",
+  "repo": "polyfill/Function.prototype.bind",
+  "description": "Function.prototype.bind",
+  "version": "0.0.1",
+  "keywords": [],
+  "license": "MIT",
+  "main": "Function.prototype.bind.js",
+  "scripts": [
+    "Function.prototype.bind.js"
+  ]
+}
